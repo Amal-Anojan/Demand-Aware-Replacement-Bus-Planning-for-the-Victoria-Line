@@ -1,0 +1,13 @@
+pandas>=2.2,<4
+openpyxl>=3.1,<4
+networkx>=3.4,<4
+streamlit>=1.45,<2
+osmnx>=2.0,<3
+folium>=0.19,<1
+streamlit-folium>=0.25,<1
+plotly>=6,<8
+requests>=2.32,<3
+scipy>=1.14,<2
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+pytest>=8,<10

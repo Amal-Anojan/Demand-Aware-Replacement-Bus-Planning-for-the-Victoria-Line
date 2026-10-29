@@ -1,0 +1,46 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Downloaded road/passenger caches and generated station coordinates
+/cache/
+/config/stations.json
+
+# Source workbooks are supplied separately; keep data/README.md tracked
+/data/*.xlsx
+/data/*.xls
+
+# Generated reports, presentations, PDFs and temporary authoring files
+/outputs/
+/output/
+/tmp/
+/presentation_validation.json
+*.log
+
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
