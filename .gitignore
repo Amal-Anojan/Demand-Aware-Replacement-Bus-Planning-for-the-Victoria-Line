@@ -24,7 +24,6 @@ dist/
 /data/*.xlsx
 /data/*.xls
 
-# Generated reports, presentations, PDFs and temporary authoring files
 /outputs/
 /output/
 /tmp/
